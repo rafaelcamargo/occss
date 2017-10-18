@@ -1,0 +1,21 @@
+@require '_variables'
+@require '_mixins'
+
+$the-unserious-manifest-book-height = 400px
+
+.the-unserious-manifest-book
+  .book
+    width 300px
+    height $the-unserious-manifest-book-height
+    font-family $font-family-secondary
+  .cover-page
+    h1
+      font-size $font-size-xxl
+      transform('translate(-50%,-50%)')
+    .page
+      background-color $color-black
+  .page
+    padding 50px
+    height $the-unserious-manifest-book-height
+    background-color $color-yellow-light
+    font-size $font-size-xs
